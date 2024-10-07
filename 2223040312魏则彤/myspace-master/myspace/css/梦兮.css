@@ -1,0 +1,119 @@
+#mbox{
+	position: relative;
+	padding: 20px 0 20px 0;
+	margin: 10px 0 10px 0;
+	font-family: "微软雅黑";
+	text-align: center;
+	background:#C7C7C7;
+	opacity: 0.8;
+	box-shadow: 8px 8px 16px 16px rgba(0,0,0,0.5);
+}
+
+
+/*-------------------------基本样式---------------------------------------------*/
+
+.zwen{
+	position: relative;
+	display: block;
+	text-align: center;
+	font-family:"微软雅黑";
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 35px;
+/*	text-align: left;*/
+/*	margin: 20px 0 20px 40%;*/
+}
+.span{
+	display: inline-block;
+	height: 90px;
+	width: 240px;
+/*	background: #7A7A7A;*/
+	transition: .5s;
+}
+.span b{
+	display: none;
+	font-size: 0px;
+	width: 100px;
+/*	background: #000000;*/
+}
+
+.a1{
+	display: inline-block;
+	position: relative;
+	left: -40px;
+	top:5px;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	text-decoration: none;
+    display: inline-block;
+	margin-left: 0px;
+	border-radius: 50%;
+	background: #727272;
+}
+.a2{
+	display: inline-block;
+	position: relative;
+	left: 40px;
+	top:5px;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	text-decoration: none;
+    display: inline-block;
+	margin-left: 0px;
+	border-radius: 50%;
+	background: #727272;
+}
+.span:hover .a1{
+	top:0;
+	left: -60px;
+	height: 90px;
+	width: 90px;
+	transition: .5s;
+	background: #12184A;
+	font-size: 50px;
+	
+}
+.span:hover .a2{
+	top:0;
+	left: 60px;
+	height: 90px;
+	width: 90px;
+	transition: .5s;
+	background: #12184A;
+	font-size: 50px;
+}
+.span:hover .b1{
+	display:inline-block;
+	position: absolute;
+	margin-left:-40px;
+	width: 100px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	color: #0D1933;
+/*	background: #000000;*/
+	transition: .5s;
+}
+.span:hover .b2{
+	display:inline-block;
+	position: absolute;
+	margin-left:-145px;
+	width: 100px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	color: #0D1933;
+/*	background: #000000;*/
+	transition: .5s;
+}
+.bt{
+	line-height: 80px;
+}

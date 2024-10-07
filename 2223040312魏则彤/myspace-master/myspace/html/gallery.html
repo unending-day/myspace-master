@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="icon" href="../imgs/菜鸟头像.png" type="image/png">
+    <meta charset="utf-8">
+    <title>unending-day</title>
+    <link rel="stylesheet" href="../css/首页.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../css/主体盒子.css">
+    <script type="text/javascript" src="../js/side.js" ></script>
+    <script type="text/javascript" src="../js/gallery.js"></script>
+    <embed src="../music/我喜欢上你时的内心活动.mp3" hidden="true" autostart="true" loop="true">
+</head>
+
+<body>
+<!--侧导航盒子-->
+<div id="mySidenav" class="sidenav">
+    <div class="tx"></div>
+    <p class="name">unending-day</p>
+    <div class="zym">
+        <p>我们一路奋战,不是为了改变世界,而是不让世界改变我们.</p>
+        <a>分类</a>
+        <a>标签</a>
+    </div>
+    <div class="gr">
+        <h4>友链</h4>
+        <a href="https://github.com/" class="gra">&middot;GitHub</a>
+        <a href="https://www.cnblogs.com/" class="gra">&middot;博客园</a>
+        <a href="https://www.jianshu.com/" class="gra">&middot;简书</a>
+    </div>
+    <div class="shouj">
+        <h4>个人收集站</h4>
+        <a href="http://www.w3school.com.cn/">W3Cschool</a>
+        <a href="http://www.alloyteam.com/">web前端导航</a>
+        <a href="http://www.itcast.cn/">传智播客</a>
+        <a href="http://5sing.kugou.com/">5sing</a>
+        <a href="http://www.mikecrm.com/">麦客CRM</a>
+        <a href="http://www.51cto.com/">51CTO</a>
+        <a href="http://www.runoob.com/">菜鸟教程</a>
+    </div>
+    <span onclick="closeNav_1()" class="close">&times;</span>
+</div>
+
+<!----头部盒子---->
+<div id="main">
+    <div class="tou">
+        <span onclick="openNav_1()">&#9776;</span>
+        <h1>unending-day的个人空间</h1>
+        <div id="dh" class="dhbox">
+            <a href="../../index.html">首页</a>
+            <a>分类</a>
+            <a>标签</a>
+            <a href="myself.html">关于我</a></div>
+    </div>
+</div>
+
+<!----主盒子---->
+<div id="mbox">
+    <!--外层透明盒子-->
+    <div class="gallery-big-box" id="gallery-big-box">
+        <span class="gallery-close-span" onclick="closeviewbox()">x</span>
+        <!--显示图片的盒子-->
+        <div class="gallery-view-box">
+            <img class="gallery-view-imgs" id="0_2">
+        </div>
+    </div>
+
+
+    <!--瀑布流图片盒子-->
+    <div class="waterfall-container">
+
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('0_1')">
+            <img class="gallery_imgs" id="0_1" src="../imgs/bt1.jpg">
+            <p class="gallery_p">守望</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('1_1')">
+            <img class="gallery_imgs" id="1_1" src="../imgs/bt2.png">
+            <p class="gallery_p">静</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('2_1')">
+            <img class="gallery_imgs" id="2_1" src="../imgs/bj1.jpg">
+            <p class="gallery_p">二次元</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('3_1')">
+            <img class="gallery_imgs" id="3_1" src="../imgs/bg.jpg">
+            <p class="gallery_p">二次元</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('4_1')">
+            <img class="gallery_imgs" id="4_1" src="../imgs/smoken.png">
+            <p class="gallery_p">香烟</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('5_1')">
+            <img class="gallery_imgs" id="5_1" src="../imgs/却尘思.PNG">
+            <p class="gallery_p">却尘思</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('6_1')">
+            <img class="gallery_imgs" id="6_1" src="../imgs/小恐龙.png">
+            <p class="gallery_p">Dinosaur</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('7_1')">
+            <img class="gallery_imgs" id="7_1" src="../imgs/小猪.png">
+            <p class="gallery_p">小猪</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('8_1')">
+            <img class="gallery_imgs" id="8_1" src="../imgs/梦兮.jpg">
+            <p class="gallery_p">景物</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('9_1')">
+            <img class="gallery_imgs" id="9_1" src="../imgs/诗兮.jpg">
+            <p class="gallery_p">景物</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('10_1')">
+            <img class="gallery_imgs" id="10_1" src="../imgs/返老还童.png">
+            <p class="gallery_p">返老还童</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('11_1')">
+            <img class="gallery_imgs" id="11_1" src="../imgs/图兮.jpg">
+            <p class="gallery_p">图兮背景图</p>
+        </div>
+        <!--图片盒子-->
+        <div class="gallery_box" onclick="openviewbox('12_1')">
+            <img class="gallery_imgs" id="12_1" src="../imgs/天空蓝.jpg">
+            <p class="gallery_p">天空蓝壁纸</p>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+<!----尾部盒子---->
+<div class="wb" id="weib">
+    <div class="banq">
+        <b>&copy;unending-day</b><br>
+        <a href="https://.github.com/"><b>power by unending-day</b></a>
+    </div>
+</div>
+
+
+</body>
+</html>

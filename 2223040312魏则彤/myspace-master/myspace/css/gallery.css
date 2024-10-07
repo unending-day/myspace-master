@@ -1,0 +1,92 @@
+.gallery_box{
+    position: relative;
+    margin: 2% 2% 2% 2%;
+    display:inline-block;
+    break-inside: avoid;
+    border-radius: 3%;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.gallery_imgs{
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 3%;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.gallery_p{
+    padding: 2px 2%;
+    width: 96%;
+    background: #0B273F;
+    bottom:20px;
+    position: absolute;
+    color: #DEE6FA;
+    font-family: "微软雅黑";
+}
+
+.gallery_box:hover{
+    position: relative;
+    margin: 2% 2% 2% 2%;
+    /*padding: 1% 2% 2% 2%;*/
+    width: 101%;
+    display:inline-block;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.gallery-big-box{
+
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.gallery-view-box{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    top: 40px;
+}
+.gallery-view-imgs{
+    width: 100%;
+}
+.gallery-close-span{
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.gallery-close-span:hover{
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 25px;
+    color: crimson;
+    margin-left: 90%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.waterfall-container {
+    margin: 2% 2% 2% 2%;
+
+    /*分几列*/
+    column-count: 3;
+
+
+}
+
+.waterfall-item {
+    margin: 2% 2% 2% 2%;
+    /*不留白，不知道什么意思可以取消这个样式试试*/
+    break-inside: avoid;
+    background: #0B273F;
+}
